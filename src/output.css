@@ -785,6 +785,14 @@ video {
        column-gap: 6rem;
 }
 
+.gap-y-28 {
+  row-gap: 7rem;
+}
+
+.gap-y-32 {
+  row-gap: 8rem;
+}
+
 .rounded-lg {
   border-radius: 0.5rem;
 }
