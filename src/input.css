@@ -1,3 +1,21 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@media only screen and (min-width: 360px) {
+    .navbar {
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
+@media only screen and (min-width: 1190px) {
+    .nav-buttons {
+        display: flex;
+        gap: 1.5rem;
+    }
+
+    .nav-icons {
+        display: none;
+    }
+}
